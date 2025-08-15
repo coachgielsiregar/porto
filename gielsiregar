@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Design Portfolio - Giel Utami Putri Siregar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .skill-tag { transition: all 0.2s ease; }
+        .skill-tag:hover { transform: scale(1.05); }
+        .project-card { border-left: 4px solid #667eea; }
+        .impact-number { font-size: 2.5rem; font-weight: 700; color: #667eea; }
+        .section-divider { height: 2px; background: linear-gradient(90deg, #667eea, #764ba2); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-6">
+                <div class="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
+                    <span class="text-4xl font-bold text-purple-600">GP</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Giel Utami Putri Siregar</h1>
+                <p class="text-xl md:text-2xl mb-6 opacity-90">Learning Designer & Co Facilitator</p>
+                <div class="flex flex-wrap justify-center gap-4 mb-8">
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium">Microsoft 365 Specialist</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium">Digital Learning Expert</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium">4+ Years Experience</span>
+                </div>
+                <div class="flex justify-center">
+                    <a href="https://www.linkedin.com/in/gielsiregar/" target="_blank" class="bg-white bg-opacity-20 hover:bg-opacity-30 p-3 rounded-full transition-all duration-200 hover:scale-110">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <!-- Experience Overview -->
+        <section class="mb-16">
+            <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                <h2 class="text-3xl font-bold mb-6 text-center">Deskripsi Pengalaman</h2>
+                <div class="section-divider mb-8 mx-auto w-24"></div>
+                <p class="text-lg leading-relaxed text-center max-w-4xl mx-auto">
+                    <span class="font-semibold text-purple-600">4+ tahun pengalaman</span> merancang dan memfasilitasi pembelajaran digital & tatap muka untuk berbagai audiens, mulai dari siswa sekolah, mahasiswa, hingga profesional. 
+                    <span class="font-semibold text-purple-600">Spesialis dalam mengintegrasikan teknologi pembelajaran berbasis Microsoft 365</span> untuk meningkatkan keterlibatan peserta dan menciptakan pengalaman belajar yang interaktif dan efektif.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center">Contoh Proyek Unggulan</h2>
+            <div class="section-divider mb-12 mx-auto w-24"></div>
+            
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover project-card">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Kelas AI & Life Skills</h3>
+                        <p class="text-purple-600 font-medium mb-4">Orbit Future Academy (2021–Sekarang)</p>
+                    </div>
+                    <p class="text-gray-600 mb-4">Merancang kurikulum blended learning menggunakan Microsoft Teams, PowerPoint, dan OneNote.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Teams</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PowerPoint</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">OneNote</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover project-card">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Pelatihan Microsoft 365</h3>
+                        <p class="text-purple-600 font-medium mb-4">untuk Guru & Dosen (2022)</p>
+                    </div>
+                    <p class="text-gray-600 mb-4">Mendesain modul pembelajaran dengan pendekatan microlearning dan evaluasi menggunakan Microsoft Forms.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Word</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Excel</span>
+                        <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">SharePoint</span>
+                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Forms</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover project-card">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M7 4V2a1 1 0 011-1h4a1 1 0 011 1v2h4a1 1 0 110 2h-1v10a2 2 0 01-2 2H6a2 2 0 01-2-2V6H3a1 1 0 010-2h4zM9 6v8a1 1 0 102 0V6a1 1 0 10-2 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Workshop Media Storytelling</h3>
+                        <p class="text-purple-600 font-medium mb-4">Abad 21 dengan Sway (2024)</p>
+                    </div>
+                    <p class="text-gray-600 mb-4">Membuat materi interaktif menggunakan Microsoft Sway dengan aktivitas kolaboratif untuk produksi karya digital.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Sway</span>
+                        <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">Storytelling</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Interactive</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools & Methods -->
+        <section class="mb-16">
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-8 text-center">Tools & Metodologi</h2>
+                <div class="section-divider mb-8 mx-auto w-24"></div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-purple-600">Microsoft 365 Suite</h3>
+                        <div class="flex flex-wrap gap-3 mb-6">
+                            <span class="skill-tag bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Word</span>
+                            <span class="skill-tag bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Excel</span>
+                            <span class="skill-tag bg-orange-100 text-orange-800 px-4 py-2 rounded-full font-medium">PowerPoint</span>
+                            <span class="skill-tag bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Teams</span>
+                            <span class="skill-tag bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium">SharePoint</span>
+                            <span class="skill-tag bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-medium">OneNote</span>
+                            <span class="skill-tag bg-pink-100 text-pink-800 px-4 py-2 rounded-full font-medium">Sway</span>
+                            <span class="skill-tag bg-red-100 text-red-800 px-4 py-2 rounded-full font-medium">Forms</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-semibold mb-4 text-purple-600">Platform Lainnya</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="skill-tag bg-gray-100 text-gray-800 px-4 py-2 rounded-full font-medium">Google Workspace</span>
+                            <span class="skill-tag bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-medium">Canva</span>
+                            <span class="skill-tag bg-teal-100 text-teal-800 px-4 py-2 rounded-full font-medium">LMS</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-purple-600">Metodologi Pembelajaran</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+                                <span class="font-medium">Microlearning</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+                                <span class="font-medium">Project-Based Learning</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+                                <span class="font-medium">Flipped Classroom</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+                                <span class="font-medium">Blended Learning</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+                                <span class="font-medium">Collaborative Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results & Impact -->
+        <section class="mb-16">
+            <div class="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-lg p-8 text-white">
+                <h2 class="text-3xl font-bold mb-8 text-center">Hasil & Dampak</h2>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="card-hover">
+                        <div class="impact-number text-white">85%</div>
+                        <p class="text-lg font-medium">Peningkatan Engagement Peserta pada Sesi Daring</p>
+                    </div>
+                    <div class="card-hover">
+                        <div class="impact-number text-white">4.8/5</div>
+                        <p class="text-lg font-medium">Rating Feedback Positif dari Peserta</p>
+                    </div>
+                    <div class="card-hover">
+                        <div class="impact-number text-white">20+</div>
+                        <p class="text-lg font-medium">Fasilitator Menggunakan Modul yang Dirancang</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why BINAR Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-8 text-center">Mengapa Memilih Saya?</h2>
+                <div class="section-divider mb-8 mx-auto w-24"></div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Expertise Microsoft 365</h3>
+                                <p class="text-gray-600">Pengalaman mendalam dalam semua tools Microsoft 365 dengan track record pelatihan yang terbukti</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <svg class="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Metodologi Inovatif</h3>
+                                <p class="text-gray-600">Menguasai berbagai pendekatan pembelajaran modern seperti microlearning dan project-based learning</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <svg class="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Hasil Terukur</h3>
+                                <p class="text-gray-600">Terbukti meningkatkan engagement hingga 85% dengan feedback positif konsisten 4.8/5</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <svg class="w-4 h-4 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Skalabilitas</h3>
+                                <p class="text-gray-600">Modul yang dirancang telah digunakan oleh 20+ fasilitator di berbagai wilayah Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="text-center">
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h2 class="text-2xl font-bold mb-4">Mari Berkolaborasi</h2>
+                <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
+                    Dengan pengalaman 4+ tahun dan track record yang terbukti dalam merancang pembelajaran Microsoft 365, saya siap memberikan kontribusi terbaik untuk organisasi Anda. Informasi lengkap tentang pengalaman dan pencapaian saya dapat dilihat melalui link di bawah ini.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://ubsistory.my.canva.site/portofolio-giel-siregar" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-200 shadow-lg">
+                        My Portfolio 2025
+                    </a>
+                    <a href="https://drive.google.com/file/d/1o1t8vMWUJ-F4xumosmk0377sv1LHSAOY/view?usp=sharing" target="_blank" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-8 py-3 rounded-full font-semibold transition-colors duration-200">
+                        Download My CV
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-8 mt-16">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4">&copy; 2024 Giel Utami Putri Siregar - Learning Design Portfolio</p>
+            <p class="text-sm opacity-75">Learning Designer & Co Facilitator Microsoft 365 - Ready to Transform Your Learning Experience</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling for better UX
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards
+        document.querySelectorAll('.card-hover').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96f930cd237c3dd1',t:'MTc1NTI2NjEzNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
